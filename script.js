@@ -86,11 +86,32 @@
 //     console.log("VIJAY");
 // };
 // name();
-let sum=(a,b)=>{
-    console.log(a+b);
+// let sum=(a,b)=>{
+//     console.log(a+b);
     
-}
-sum(4,5);
+// }
+// sum(4,5);
+// object
+// let stud1= {
+//     rollno:120,
+//     name:"harsh",
+//     mobno:9595858499,
+//     gender: "male",
+//     // sub : ["vijay","dinkar","rohit","yashraj"]
+
+//      ioi:function(){
+//         return this.mobno;
+//      }
+// }
+
+// // console.log(stud1)
+// // console.log(stud1.sub)
+// console.log(stud1.ioi());
+
+
+
+
+
 
 
 
