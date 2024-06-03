@@ -56,4 +56,13 @@
 // let data =[1,2,3,4,5,6,7,8,9,10]
 // console.log(pwioi(data))
 
+// const var1=document.getElementsByTagName("h1");
+// console.log(var1);
+// const var2=document.getElementsByClassName("hello");
+// console.log(var2);
+
+const var3=document.getElementById("tittle-one")
+console.log(var3);
+var3.outerText="IOI";
+
 
