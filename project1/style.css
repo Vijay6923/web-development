@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    height: 100vh;
+    padding: 0;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+
+}
+.button1{
+    color: black;
+    background-color: aqua;
+}
