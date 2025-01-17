@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style type="text/css">
+            header{
+                font-size: 25px;
+                font-family: Arial;
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+            } 
+            nav span{
+                margin-right: 30px;
+            }  
+            .brand-title{
+                font-size: 28px;
+                font-weight: bold;
+                color: blue;
+            }
+           header button{
+                font-size: 24px;
+                border: none;
+                padding: 5px;
+                background-color: blue;
+                color: white;
+                border-radius: 10px;
+            }
+            .title-1{
+                font-family: arial;
+                font-size: 50px;
+                margin-left: 100px;
+                margin-top: 50px;
+            }
+            .title-2{
+                font-family: arial;
+                font-size: 25px;
+                margin-left: 100px;
+                margin-top: 50px;
+                line-height: 35px;
+                color: gray;
+            }
+            .main-button{
+                margin-top: 15px;
+                margin-left: 100px;
+            }
+
+            .btn-pages,.btn-doc{
+                font-size:25px;
+                padding: 10px;
+                width: 250px;
+                border: none;
+            }
+
+            .btn-pages{
+                background-color: blue;
+                color: white;
+            }
+            .btn-pages:hover{
+                background-color: cyan;
+                color: black;
+                cursor: pointer;
+            }
+    </style>
+</head>    
+<body>
+    <header>
+        <div>
+            <span class="brand-title">Landkit.</span>
+        </div>
+        <div>
+            <nav>
+                <span>Landing</span>
+                <span>Pages</span>
+                <span>Account</span>
+                <span>Documentation</span>
+            </nav>
+        </div>
+        <div>
+            <button>Buy now</button>
+        </div>
+    </header>
+
+    <section>
+        <main>
+            <img src="../Screenshot 2024-07-31 at 6.09.25 PM.png" alt="" width="600" title="work image" align="right">
+            <div>
+                <div class="title-1">
+                    Welcome to Landkit.<br>
+                    Develop anything.
+                </div>
+                <div class="title-2">
+                    Build a beautiful, modern website with flexible<br> 
+                    Bootstrap components built from scratch.
+                </div>
+                <div class="main-button">
+                    <button class="btn-pages">View all pages<span class="bi bi-arrow-right"></span></button>
+                    <button class="btn-doc">Documentation</button>
+                </div>
+            </div>
+        </main>
+    </section>
+
+</body>
+</html>

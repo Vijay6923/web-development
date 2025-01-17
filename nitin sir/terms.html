@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style type="text/css">
+        textarea{
+            cursor: not-allowed;
+            
+        }
+        
+        .terms+span{
+            color: red;
+        }
+        .terms~button{
+            display: none;
+
+        }
+        .terms:checked~button{
+            display: block;
+        }
+
+         
+    </style>
+</head>
+<body>
+    <dl>
+        <dt>terms and conditions</dt>
+        <dd>
+            <textarea   cols="40"  rows="4" disabled >terms and conditions</textarea>
+        </dd>
+        <dd>
+            <input class="terms" type="checkbox" name="txtCheck"><span>I Accept</span>
+            <br>
+            <button class="btn btn-primary">Submit</button>
+            
+        </dd>
+        
+    </dl>
+    
+</body>
+</html>

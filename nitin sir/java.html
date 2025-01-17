@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function SetEffects(){
+            document.querySelector("h1").style.color='red';
+        }
+
+        function resetEffects(){
+            document.querySelector("h1").style.color='blue';
+        }
+
+
+        
+    </script>
+
+    <!-- <style type="text/css">
+        h1:hover{
+            color: red;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 3s;
+        }
+    </style> -->
+</head>
+<body>
+    <h1 onmouseover="SetEffects()" onmouseout="resetEffects()">web development</h1>
+    
+</body>
+</html>

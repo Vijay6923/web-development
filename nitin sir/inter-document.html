@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        section{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+
+        }
+        iframe{
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./men.jpg" download="ioi_syllabus">springboot</a>
+
+                </li>
+                <li>
+                    <span class="bi bi-printer-fill"></span>
+                    <a href="javascript:window.print()">printer</a>
+                </li>
+                
+                <li>
+                    <a href="javascript:window.open('./men.jpg','title','width=300 ,height=300')">kids image</a>
+                </li>
+
+                <li>
+                    <a href="./kids.jpg" target="main-frame">mens image</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <iframe name="main-frame"></iframe>
+        </main>
+    </section>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <form >
+        age: <input type="number" name="txtNumber" min="0" max="60" step="3">
+        <button>submit</button>
+    </form>
+    <form >
+        age: <input type="number" name="txtNumber" min="0" max="60" step="3"> <br>
+        range: <input type="range" name="txtRange ">
+        url: <input type="url" name="txtUrl" size="58">
+        color: <input type="color">
+
+    </form>
+    <form align="center">
+        <div>
+            <figure>
+                <img src="../back.jpg" width="200" height="300" title="back">
+                <figcaption>
+                    <input type="color">
+                    <input type="color" value="#ff0000" name="txtColor">
+                    <input type="color" value="00ff00">
+                </figcaption>
+            </figure>
+            <button>submit</button>
+
+        </div>
+    </form>
+
+    <form >
+        <!-- departure: <input type="date" name="txtDate" min="2024-09-02"  max=""> -->
+        <input type="file" accept=".png,.pdf,.jpg" multiple name="txtPhoto">
+        <button>submit</button>
+    </form>
+    <form> 
+        <p>select your favorite languages.</p>
+        <input type="radio" name="web" value="html" checked > <label >html</label>
+        <input type="radio" name="web" value="css" > <label >css</label>
+        <input type="radio" name="web" value="js" disabled > <label >js</label>
+        <br>
+        <p>age</p>
+        <input type="checkbox" name="web" value="0 to 18" ><label for="">0 to 18</label>
+        <input type="checkbox" name="web" value="18 to 54" ><label for="">18 to 54</label>
+        <input type="checkbox" name="web" value="54 to 80" ><label for="">54 to 80</label>
+        <button>submit</button>
+        <button></button>
+    </form>
+    
+</body>
+</html>

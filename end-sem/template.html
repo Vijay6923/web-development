@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style type="text/css">
+        footer{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            margin: 5px;
+            padding: 6px;
+            font-style: normal;
+        }
+        .brand{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+
+        }
+        nav span{
+            margin-right: 15px;
+        }
+    
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid white;
+            margin: 10px;
+            padding: 5px;
+
+        }
+        .item{
+            border: 1px solid white;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        }
+        section{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            margin: 20px;
+            padding: 10px;
+        }
+        .productdetails{
+            padding-left: 10px;
+            margin: 10px;
+            line-height: 25px;
+        }
+        .productnumber{
+            color: grey;
+        }
+        .productprice{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .proceed{
+            color: red;
+        }
+        aside{
+            display: flex;
+
+        }
+        .text-details{
+            margin:30px;
+            padding: 20px;
+        }
+        .surfing{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 15px;
+            font-size: 25px;
+        }
+        .about{
+            line-height: 25px;
+        }
+        .feed1{
+            justify-content: center;
+            text-align: center;
+            margin-top:70px ;
+            background-color: white;
+            width: 400px;
+            margin-left: 50px;
+            height: 150px;
+        }
+        .read-more{
+            border: 1px solid black;
+            width: 100px;
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+            height: 20px;
+        }
+        .review{
+            width: 100%;
+            background-color: rgb(233, 213, 216);
+            height: 300px;
+        }
+        .r1{
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
+        }
+        .r2{
+            text-align: center;
+            font-family: normal;
+            
+        }
+        .feedback{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            
+
+        }
+
+        .login{
+            background-color: orangered;
+            margin: 10px;
+            height: 300px;
+            color: white;
+        }
+        .s1{
+           padding: 25px;
+           text-align: center;
+           font-size: 35px;
+        }
+        .s2{
+            padding: 20px;
+           text-align: center;
+           font-size: 15px;
+
+        }
+        .s3{
+            padding: 20px;
+           text-align: center;
+           font-size: 15px;
+           background-color: white;
+           width: 200px;
+           height: 5px;
+           color: black;
+           justify-content: center;
+           margin-left: 450px;
+           
+
+        }
+        .s4{
+            margin-top:5px;
+            border: 1px solid white;
+            width: 60px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-left:530px ;
+        }
+        .banner{
+            background-image: url(./ama.jpg);
+            width: 100%;
+            height: 300px;
+
+        }
+        .p1{
+            padding-top: 50px;
+            text-align: center;
+            justify-content: center;
+            color: black;
+        }
+        .p2{
+            
+            
+            text-align: center;
+            justify-content: center;
+            color: black;
+        }
+        .button{
+            align-items: center;
+            justify-content: center;
+          
+            margin-left: 500px;
+            
+
+            
+        }
+        button{
+            margin-top:10px;
+            background-color: orangered;
+            height: 25px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <footer>
+        <div>
+            +48 789 456 123
+
+        </div>
+        <div>
+            contact@ssurfers.com
+
+        </div>
+            
+ 
+
+        <div>
+            <nav>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-youtube"></span>
+                <span class="bi bi-instagram"></span>
+                <span class="bi bi-pinterest"></span>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-linkedin"></span>
+
+            </nav>
+            
+        </div>
+        
+    </footer>
+    <header>
+        <div class="brand">
+            SSURFERS
+        </div>
+
+        <div class="details">
+            <nav>
+                <span>Home</span>
+                <span>Products</span>
+                <span>Blog</span>
+                <span>About us</span>
+                <span>Contact</span>
+                <span class="bi bi-cart-fill"></span>
+
+            </nav>
+            
+        </div>
+    </header>
+    <main class="banner">
+        
+        <div>
+            <div class="p1">Choose a board for yourself</div>
+            <div class="p2">end sem project.Choose a board for yourself</div>
+            <div class="button">
+                <button>CHECKS OUR BOARDS</button>
+                
+            </div>
+            
+        </div>
+    </main>
+    <div class="item">SurfBoards</div>
+    <section>
+        <div class="card">
+            <div class="prod">
+                <img src="../end-sem/img4.png" width="200px" >
+            </div>
+
+            <div class="productdetails">
+                <div class="productnumber">
+                    product 8
+                </div>
+                <div class="productprice">
+                    450,000 USD
+                </div>
+                <div class="proceed">
+                    Zobacz wiecej <span class="bi bi-arrow-right"></span>
+                </div>
+
+            </div>
+            
+            
+        </div>
+        <div class="card">
+            <div class="prod">
+                <img src="../end-sem/img3.png" width="180px" >
+            </div>
+
+            <div class="productdetails">
+                <div class="productnumber">
+                    product 7
+                </div>
+                <div class="productprice">
+                    340,000 USD
+                </div>
+                <div class="proceed">
+                    Zobacz wiecej <span class="bi bi-arrow-right"></span>
+                </div>
+
+            </div>
+            
+            
+        </div>
+        <div class="card">
+            <div class="prod">
+                <img src="../end-sem/img2.png" width="180px" >
+            </div>
+
+            <div class="productdetails">
+                <div class="productnumber">
+                    product 6
+                </div>
+                <div class="productprice">
+                    425,000 USD
+                </div>
+                <div class="proceed">
+                    Zobacz wiecej <span class="bi bi-arrow-right"></span>
+                </div>
+
+            </div>
+            
+            
+        </div>
+        <div class="card">
+            <div class="prod">
+                <img src="../end-sem/img5.png" width="180px" >
+            </div>
+
+            <div class="productdetails">
+                <div class="productnumber">
+                    product 5
+                </div>
+                <div class="productprice">
+                    370,000 USD
+                </div>
+                <div class="proceed">
+                    Zobacz wiecej <span class="bi bi-arrow-right"></span>
+                </div>
+
+            </div>
+            
+            
+        </div>
+
+    </section>
+    <aside>
+        <div>
+            <img src="./img1.png" width="500px">
+
+        </div>
+        <div class="text-details">
+            <div class="surfing">
+                Learn more about surfing
+            </div>
+            <div class="about">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus alias ex, tempora aliquam quos doloremque nihil, quo cupiditate necessitatibus rerum nostrum cum fugit ratione sit nisi unde laborum voluptates itaque!
+            </div>
+
+            <div class="read-more">
+                Read More
+            </div>
+        </div>
+
+    </aside>
+    <div class="review">
+        <div>
+            <div class="r1">
+                Customer Reviews
+            </div>
+            <div class="r2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eius ut! Fugit soluta quibusdam ex error, sapiente libero ullam repellat voluptate debitis porro cum nostrum sunt recusandae tenetur quo ipsam.
+            </div>
+        </div>
+        <div class="feedback">
+            <div class="feed1">
+                <div class="">
+                    <img src="../nitin sir/men.jpg" width="40px" height="40px" border-radius="40px">
+                </div>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestiae nobis officiis eius itaque ex cum rem praesentium consectetur. Alias odio rem architecto provident voluptatibus sapiente, illum nulla ducimus! Ad!
+    
+                </div>
+
+            </div>
+            <div class="feed1">
+                <div class="img1">
+                    <img src="../nitin sir/women.webp" width="40px" height="40px" border-radius="40px">
+                </div>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestiae nobis officiis eius itaque ex cum rem praesentium consectetur. Alias odio rem architecto provident voluptatibus sapiente, illum nulla ducimus! Ad!
+    
+                </div>
+
+            </div>
+            
+
+        </div>
+
+    </div>
+    <div class="login">
+        <div class="s1">Sign up for the newsletter!</div>
+        <div class="s2">
+            sign up for the newsletter and receive free web design knowledge.
+        </div>
+        <div class="s3">
+            your email
+        </div>
+        <div class="s4">
+            Sign Up
+        </div>
+
+    </div>
+    
+</body>
+</html>

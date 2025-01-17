@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        ol{
+            list-style-type: none;
+            display: flex;
+        }
+        li::after{
+            content: ">>";
+        }
+        li:last-child{
+            color: green;
+        }
+        li:last-child::after{
+            content: " ";
+        }
+    </style>
+</head>
+<body>
+    <p id="data">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, molestiae fugit perspiciatis asperiores blanditiis exercitationem quia rerum ad optio repudiandae consequatur cum tempore vitae accusamus. Culpa exercitationem voluptas quos pariatur.
+
+    </p>
+    <p id="para">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure delectus magni perferendis a deserunt ea perspiciatis ipsam voluptate impedit consequuntur alias repudiandae, libero quod minima, nam expedita dolorem? Quam, tenetur?
+        
+    </p>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>BOOTSTRAP</li>
+        <li>REACT</li>
+        <li>MONGO DB</li>
+        <li>NEXT.JS</li>
+    </ol>
+    
+</body>
+</html>
